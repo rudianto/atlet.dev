@@ -326,10 +326,10 @@
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             
-            <li><a href="<?=base_url();?>index.php/atletcontroller/"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>All Data Atlet</span></a></li>
-            <li><a href="<?=base_url();?>index.php/atletcontroller/add"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>Insert data Atlet</span></a></li>
-            <li><a href="<?=base_url();?>index.php/atletcontroller/ktpkosong"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>View KTP Kosong</span></a></li>
-            <li><a href="<?=base_url();?>index.php/atletcontroller/formkosong"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>View form Kosong</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atlet/"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>All Data Atlet</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atlet/insertAtlet"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>Insert data Atlet</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atlet/ktpkosong"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>View KTP Kosong</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atlet/formkosong"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>View form Kosong</span></a></li>
          </ul> 
         </section>
         <!-- /.sidebar -->

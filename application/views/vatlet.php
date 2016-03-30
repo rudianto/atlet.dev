@@ -129,11 +129,13 @@
 								echo '<input type="checkbox" name="lname" disabled checked>';
 							}
 							?>
-							</td>
-							<td>
-								<a class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit</a>
-								<a class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Hapus</a>
-							</td>
+						</td>
+                      	<td align="center">
+                        		<?=anchor('atlet/updateAtlet/'.$value->id_entry, '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>', ['class'=>'btn btn-warning']);?>
+                        		<?=anchor('atlet/deleteAtlet/'.$value->id_entry, '<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>', ['class'=>'btn btn-danger','onclick'=>'return confirm(\'Apakah Anda Yakin Akan di Hapus..??\')']
+                                  );?>
+                      	</td>
+
 					</tr>
 				<?php endforeach;?>
 				
