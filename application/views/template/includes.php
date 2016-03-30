@@ -7,9 +7,9 @@
 
       <!-- Bootstrap 3.3.5 -->
     <link rel="stylesheet" href="<?=base_url();?>assets/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome -->
+    <!-- Font Awesome--> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Ionicons -->
+    <!-- Ionicons--> 
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- DataTables -->
     <link rel="stylesheet" href="<?=base_url();?>assets/plugins/datatables/dataTables.bootstrap.css">
@@ -325,12 +325,12 @@
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
-            <li><a href="index"><i class="fa fa-circle-o text-red"></i> <span>All Data Atlet</span></a></li>
-            <li><a href="add"><i class="fa fa-circle-o text-yellow"></i> <span>Insert data Atlet</span></a></li>
-            <li><a href="ktpkosong"><i class="fa fa-circle-o text-aqua"></i> <span>View KTP Kosong</span></a></li>
-            <li><a href="formkosong"><i class="fa fa-circle-o text-red"></i> <span>View form Kosong</span></a></li>
             
-          </ul>
+            <li><a href="<?=base_url();?>index.php/atletcontroller/"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>All Data Atlet</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atletcontroller/add"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>Insert data Atlet</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atletcontroller/ktpkosong"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>View KTP Kosong</span></a></li>
+            <li><a href="<?=base_url();?>index.php/atletcontroller/formkosong"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> <span>View form Kosong</span></a></li>
+         </ul> 
         </section>
         <!-- /.sidebar -->
       </aside>
