@@ -16,6 +16,7 @@ class Atletcontroller extends CI_Controller {
 	{
 	 	/*$this->load->view('template/includes');
 		$this->load->view('dashboard');*/
+		$data['title']='All Data Atlet';
 		$data['select']=$this->Matlet->select();
 		$this->load->view('template/includes');
 		$this->load->view('ventrytable',$data);
@@ -23,6 +24,7 @@ class Atletcontroller extends CI_Controller {
 
 	public function viewentry()
 	{
+		$data['title']='All Data Atlet';
 		$data['select']=$this->Matlet->select();
 		$this->load->view('template/includes');
 		$this->load->view('ventrytable',$data);
@@ -30,6 +32,7 @@ class Atletcontroller extends CI_Controller {
 
 	public function ktpkosong()
 	{
+		$data['title']='Data Atlet | KTP Kosong';
 		$data['select']=$this->Matlet->ktpkosong();
 		$this->load->view('template/includes');
 		$this->load->view('ventrytable',$data);
@@ -37,6 +40,7 @@ class Atletcontroller extends CI_Controller {
 
 	public function formkosong()
 	{
+		$data['title']='Data Atlet | Form kosong';
 		$data['select']=$this->Matlet->formkosong();
 		$this->load->view('template/includes');
 		$this->load->view('ventrytable',$data);

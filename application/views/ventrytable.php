@@ -18,7 +18,7 @@
         <section class="content">
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Data Atlet</h3>
+                  <h3 class="box-title"><?php echo $title;?></h3>
                 </div><!-- /.box-header -->
                 <div class="box-body">
 			<table id="example1" class="table table-striped table-bordered table-hover">
@@ -139,20 +139,6 @@
 				
 				</tbody>
 			</table>
-			
-			 <script>
-		      $(function () {
-		        $("#example1").DataTable();
-		        $('#example2').DataTable({
-		          "paging": true,
-		          "lengthChange": false,
-		          "searching": false,
-		          "ordering": true,
-		          "info": true,
-		          "autoWidth": false
-		        });
-		      });
-		    </script>
 		</div>
 	</div>
 </div>
